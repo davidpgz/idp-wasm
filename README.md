@@ -10,7 +10,7 @@
 - Local deployment
 - Cloud deployment
   - Ephemeral environment
-  - Production environment
+  - Production like environment
 - IDP features
   - NoSql data layer
   - Http server with Wasm computing

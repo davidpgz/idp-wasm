@@ -1,0 +1,1 @@
+kubectl describe deploy hpa-spinapp

@@ -19,13 +19,13 @@ The devlog is a simple way for me to track the progress of this project so that 
 # Scope
 
 - [x] Local deployment
-- [] Monitoring cluster performance
-- [] Infrastructure as Code with Pulumi
-- [] IDP features
-  - [] NoSql data layer
-  - [] Http server with Wasm computing
-- [] Nodejs app
-- [] Python/Go app
-- [] Cloud deployment
-  - [] Ephemeral environment
-  - [] Production like environment
+- [ ] Monitoring cluster performance
+- [ ] Infrastructure as Code with Pulumi
+- [ ] IDP features
+  - [ ] NoSql data layer
+  - [ ] Http server with Wasm computing
+- [ ] Nodejs app
+- [ ] Python/Go app
+- [ ] Cloud deployment
+  - [ ] Ephemeral environment
+  - [ ] Production like environment

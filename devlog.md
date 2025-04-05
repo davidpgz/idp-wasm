@@ -1,3 +1,21 @@
+### 2025-04-05. Pulumi
+
+Let's start with the Pulumi tutorial to create K8s.
+
+#### Warp AI
+
+While I was following the tutorial I wanted to know on which cluster and namespace pulumi will deploy the stack. I've started using ChatGPT to answer my questions and finally installed the Warp terminal to use their natural language request backed by AI. At first I was fully amazed about Warp capability to run commands on its own to get the additional context I did not provide in my question. Furthermore its also able to adjust the code based on what I have requested. The flow feels very fluid, and I thought myself: Yes! This is how AI should be used for software development. And then the hard really hit me, Warp AI struggled to generate runable Typescript (undefined variable were used) and when I pin pointed the problem and ask the AI to fix it, it repeated some mistake elsewhere without solving the inital issue while duplicating comments and rewriting code without any logical reason that I could think of. It was a bloody mess... I have reverted everything. At this point I prefer to struggle doing it on my own. At least I won't have to manage a crazy AI that does random shit. With the current state of AI, Software Engineering have a bright future!
+
+#### By myself
+
+Looking for documentation about how Pulumi is able to deploy with K3, I've discovered that there is two K3: K3s and K3d. From what I've read, k3s seems to be closer to an actual k8s cluster while k3d put everything inside a docker container. Some people say that it makes thing easier manage with k3d. Regardless, I could not find documentation about Pulumi with k3d so I'll give it a shot with k3s. I'm getting tired so I'll postpone that adventure to tomorrow.
+
+#### Resources used
+
+- https://www.pulumi.com/docs/iac/get-started/kubernetes/create-project/
+- https://www.pulumi.com/docs/iac/concepts/state-and-backends/#local-filesystem
+- https://www.pulumi.com/answers/deploying-ranchers-lightweight-kubernetes-with-cloud-providers/
+
 ### 2025-04-05. Add devlog
 
 I started to track the progress of this project so that it could be shared later with other developpers. I decided to use a devlog style because it is simple to do and it captures decisions I've made along with my thought process at the time.
